@@ -50,25 +50,25 @@ class DuckDuckGo(PluginBase):
 
 
 # Blocked by CAPTCHA
-# class Google(PluginBase):
-#     class Meta:
-#         search_url = 'https://www.google.com/search'
-#         subdomains_selector = '#search div.g cite'
-#         request_delay = 1
+class Google(PluginBase):
+    class Meta:
+        search_url = 'https://www.google.com/search'
+        subdomains_selector = '#search div.g cite'
+        request_delay = 1
 
 
 # Blocked by CAPTCHA
-# class StartPage(PluginBase):
-#     class Meta:
-#         search_url = 'https://startpage.com/do/search'
-#         subdomains_selector = 'a.w-gl__result-url'
+class StartPage(PluginBase):
+    class Meta:
+        search_url = 'https://startpage.com/do/search'
+        subdomains_selector = 'a.w-gl__result-url'
 
 
 # Blocked by "403: Forbidden" HTTP error
-# class WebCrawler(PluginBase):
-#     class Meta:
-#         search_url = 'https://www.webcrawler.com/serp'
-#         subdomains_selector = 'div.resultDisplayUrl'
+class WebCrawler(PluginBase):
+    class Meta:
+        search_url = 'https://www.webcrawler.com/serp'
+        subdomains_selector = 'div.resultDisplayUrl'
 
 
 class Yahoo(PluginBase):
@@ -79,7 +79,7 @@ class Yahoo(PluginBase):
 
 
 # Blocked by CAPTCHA
-# class Exalead(PluginBase):
-#     class Meta:
-#         search_url = 'https://www.exalead.com/search/web/results'
-#         subdomains_selector = 'li.media a.ellipsis'
+class Exalead(PluginBase):
+    class Meta:
+        search_url = 'https://www.exalead.com/search/web/results'
+        subdomains_selector = 'li.media a.ellipsis'

@@ -18,6 +18,7 @@ import re
 import string
 import time
 from typing import List, Optional
+import traceback
 
 from pyquery import PyQuery
 
@@ -179,19 +180,24 @@ class PluginBase(with_metaclass(PluginMeta)):
         while True:
             url = self.url(exclude_subdomains=collected_subdomains)
 
-            pq = PyQuery(url=url, timeout=10)
-            elements = pq(meta.subdomains_selector)
+            try: 
+                pq = PyQuery(url=url, timeout=10)
+                elements = pq(meta.subdomains_selector)
 
-            subdomains = self.clean(self.extract(elements)) or []
-            # Remove already collected subdomains
-            subdomains = list(set(subdomains) - set(collected_subdomains))
-            # Check if there is at least one result
-            if subdomains:
-                collected_subdomains += subdomains
+                subdomains = self.clean(self.extract(elements)) or []
+                # Remove already collected subdomains
+                subdomains = list(set(subdomains) - set(collected_subdomains))
+                # Check if there is at least one result
+                if subdomains:
+                    collected_subdomains += subdomains
 
-                for subdomain in subdomains:
-                    yield subdomain
+                    for subdomain in subdomains:
+                        yield subdomain
 
-                time.sleep(meta.request_delay)  # To avoid error 503 (Service Unavailable), or CAPTCHA
-            else:
+                    time.sleep(meta.request_delay)  # To avoid error 503 (Service Unavailable), or CAPTCHA
+                else:
+                    break
+            except Exception as e:
+                print("Unexpected excpetion found, Continuing...")
                 break
+                

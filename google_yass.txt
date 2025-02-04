@@ -1,0 +1,106 @@
+
+    ________________________________________________
+
+    YASS - Yet Another Subdomainer Software (v0.11.7)
+        by Francesco Marano (@mrnfrancesco)
+    ________________________________________________
+
+    
+[INFO    ]	Collecting subdomains with Aol
+[INFO    ]		(1/1) support.google.com
+[INFO    ]		(2/2) sites.google.com
+[INFO    ]		(3/3) workspace.google.com
+[INFO    ]		(4/4) news.google.com
+[INFO    ]		(5/5) images.google.com
+[INFO    ]		(6/6) console.cloud.google.com
+[INFO    ]		(7/7) www.google.com
+[INFO    ]		(8/8) cloud.google.com
+[INFO    ]		(9/9) accounts.google.com
+[INFO    ]		(10/10) assistant.google.com
+[INFO    ]		(11/11) myaccount.google.com
+[INFO    ]		(12/12) myactivity.google.com
+[INFO    ]		(13/13) search.google.com
+[INFO    ]		(14/14) safebrowsing.google.com
+[INFO    ]		(15/15) developers.google.com
+[INFO    ]		(16/16) account.google.com
+[INFO    ]		(17/17) contacts.google.com
+[INFO    ]		(18/18) policies.google.com
+[INFO    ]		(19/19) tools.google.com
+[INFO    ]		(20/20) passwords.google.com
+[INFO    ]		(21/21) trends.google.com
+[INFO    ]		(22/22) santatracker.google.com
+[INFO    ]		(23/23) ipv4.google.com
+[INFO    ]		(24/24) earthengine.google.com
+[INFO    ]		(25/25) play.google.com
+[INFO    ]		(26/26) earth.google.com
+[INFO    ]		(27/27) maps.google.com
+[INFO    ]		(28/28) toolbox.google.com
+[INFO    ]		(29/29) books.google.com
+[INFO    ]		(30/30) labs.google.com
+[INFO    ]		(31/31) edu.google.com
+[INFO    ]		(32/32) patents.google.com
+[INFO    ]		(33/33) translate.google.com
+[INFO    ]		(34/34) transparencyreport.google.com
+[INFO    ]		(35/35) scholar.google.com
+[INFO    ]		(36/36) photos.google.com
+[INFO    ]		(37/37) tagassistant.google.com
+[INFO    ]		(38/38) 360suite.google.com
+[INFO    ]		(39/39) colab.research.google.com
+[INFO    ]		(40/40) ads.google.com
+[INFO    ]		(41/41) lookerstudio.google.com
+[INFO    ]		(42/42) marketingplatform.google.com
+[INFO    ]		(43/43) programmablesearchengine.google.com
+[INFO    ]		(44/44) fiber.google.com
+[INFO    ]		(45/45) toolbar.google.com
+[INFO    ]		(46/46) familylink.google.com
+[INFO    ]		(47/47) drive.google.com
+[INFO    ]		(48/48) history.google.com
+[INFO    ]		(49/49) gemini.google.com
+[INFO    ]		(50/50) firebase.google.com
+[INFO    ]		(51/51) gmail.google.com
+[INFO    ]		(52/52) chat.google.com
+[INFO    ]		(53/53) docs.google.com
+[INFO    ]		(54/54) one.google.com
+[INFO    ]		(55/55) calendar.google.com
+[INFO    ]		(56/56) code.google.com
+[INFO    ]		(57/57) aistudio.google.com
+[INFO    ]		(58/58) fonts.google.com
+[INFO    ]		(59/59) tasks.google.com
+[INFO    ]		(60/60) tagmanager.google.com
+[INFO    ]		(61/61) research.google.com
+[INFO    ]		(62/62) adsense.google.com
+[INFO    ]	Collecting subdomains with Ask
+Unexpected excpetion found, Continuing...
+[INFO    ]	Collecting subdomains with Baidu
+Unexpected excpetion found, Continuing...
+[INFO    ]	Collecting subdomains with Bing
+[INFO    ]	Collecting subdomains with DuckDuckGo
+[INFO    ]	Collecting subdomains with Exalead
+[INFO    ]	Collecting subdomains with Google
+[INFO    ]	Collecting subdomains with StartPage
+Unexpected excpetion found, Continuing...
+[INFO    ]	Collecting subdomains with WebCrawler
+Unexpected excpetion found, Continuing...
+[INFO    ]	Collecting subdomains with Yahoo
+[INFO    ]		(1/63) admanager.google.com
+[INFO    ]		(2/64) sheets.corp.google.com
+[INFO    ]		(3/65) adstransparency.google.com
+[INFO    ]		(4/66) answer.google.com
+[INFO    ]		(5/67) adwords.google.com
+[INFO    ]		(6/68) home.google.com
+[INFO    ]		(7/69) remotedesktop.google.com
+[INFO    ]		(8/70) voice.google.com
+[INFO    ]		(9/71) jobs.google.com
+[INFO    ]		(10/72) business.google.com
+[INFO    ]		(11/73) recorder.google.com
+[INFO    ]		(12/74) journaliststudio.google.com
+[INFO    ]		(13/75) chromewebstore.google.com
+[INFO    ]		(14/76) pay.google.com
+[INFO    ]		(15/77) classroom.google.com
+[INFO    ]		(16/78) messages.google.com
+[INFO    ]		(17/79) notebooklm.google.com
+[INFO    ]		(18/80) local.google.com
+[INFO    ]		(19/81) stream.meet.google.com
+[INFO    ]		(20/82) files.google.com
+Collected 82 subdomains
+360suite.google.com, account.google.com, accounts.google.com, admanager.google.com, ads.google.com, adsense.google.com, adstransparency.google.com, adwords.google.com, aistudio.google.com, answer.google.com, assistant.google.com, books.google.com, business.google.com, calendar.google.com, chat.google.com, chromewebstore.google.com, classroom.google.com, cloud.google.com, code.google.com, colab.research.google.com, console.cloud.google.com, contacts.google.com, developers.google.com, docs.google.com, drive.google.com, earth.google.com, earthengine.google.com, edu.google.com, familylink.google.com, fiber.google.com, files.google.com, firebase.google.com, fonts.google.com, gemini.google.com, gmail.google.com, history.google.com, home.google.com, images.google.com, ipv4.google.com, jobs.google.com, journaliststudio.google.com, labs.google.com, local.google.com, lookerstudio.google.com, maps.google.com, marketingplatform.google.com, messages.google.com, myaccount.google.com, myactivity.google.com, news.google.com, notebooklm.google.com, one.google.com, passwords.google.com, patents.google.com, pay.google.com, photos.google.com, play.google.com, policies.google.com, programmablesearchengine.google.com, recorder.google.com, remotedesktop.google.com, research.google.com, safebrowsing.google.com, santatracker.google.com, scholar.google.com, search.google.com, sheets.corp.google.com, sites.google.com, stream.meet.google.com, support.google.com, tagassistant.google.com, tagmanager.google.com, tasks.google.com, toolbar.google.com, toolbox.google.com, tools.google.com, translate.google.com, transparencyreport.google.com, trends.google.com, voice.google.com, workspace.google.com, www.google.com
